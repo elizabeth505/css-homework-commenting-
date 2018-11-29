@@ -1,0 +1,85 @@
+/* Base styles */
+
+body {
+    /* the body selector means all the below stylings will apply to everything the user sees on the page */
+    background-color: mistyrose;
+    /* the body section will all have the background color of mistryrose */
+    font-family: 'Roboto',
+    /* all text in the body section will be in the roboto font */
+    sans-serif;
+    /* if the roboto font is unable to be used, the sans-serif font will be used for the text in the body instead */
+    margin: 0;
+    /* the body section will have a margin width of 0 */
+}
+
+
+header {
+    /* the header selector means all below stylings will apply to everything within the header tag */
+    background-color: blue
+    /* the header section will have the background color of blue */
+    margin: 3.125em 0;
+    /* the header section will have a margin of 3.125 em on the top and 0 on the right */
+    width: 100%;
+    /* the header section will have a width of 100% */
+    margin: 0 auto;
+    /* margin with auto option will center the stuff inside the header tag within the header section */
+}
+
+nav ul {
+    /* the nav ul selector means that the below stylings will apply to all the unordered lists in the nav section */
+    margin: 0;
+    /* the unordered list in the nav section will have a margin of width 0 */
+    padding: 30px 0;
+    /* the unordered list in the nav section will have padding of 30px on the top and 0px on the right */
+    list-style-type: none;
+    /* the unordered list in the nav section will have no bullet points of any kind */
+    float: right;
+    /* the unordered list in the nav section will orient to the right */
+}
+
+img {
+    /* the img selector means the below stylings will apply to all images */
+    width: 80px;
+    /* all images will have a width of 80px */
+    height: auto;
+    /* the height with auto option will mean that the height is selected to best fit the display being used */
+}
+
+
+li {
+    /* the li selector means the below stylings will apply to all list items */
+    display: inline;
+    /* all list items will appear next to each other instead of below each other */
+    color: white;
+    /* all list text will be white */
+    padding: 1.250em;
+    /* each list item will have a padding of 1.25 em */
+}
+
+nav a {
+    text-align: center;
+    /* each link in the nav bar will be centered */
+    margin-top: 3.125em;
+    /* each link in the nav bar will have a margin on the top of 3.125 em */
+    text-decoration: none;
+    /* each link in the nav bar will have no text-decoration (ie underline) */
+    color: white;
+    /* each link in the nav bar will be in white text */
+    font-size: 1.563em;
+    /* each link in the nav bar will have a font size of 1.563 em */
+    padding: 10px;
+    /* each link in the nav bar will have padding of 10px all around */
+    text-transform: uppercase;
+    /* each link in the nav bar will have uppercase text */
+}
+
+a:hover {
+    /* below stylings apply to any link the cursor hovers over */
+    color: red;
+    /* hovering over any link will color text red while hovering */
+}
+a:active {
+    /* below stylings will apply to any link being clicked on and only while being clicked on */
+    color: pink;
+    /* any link will go pink when being clicked on */
+}
