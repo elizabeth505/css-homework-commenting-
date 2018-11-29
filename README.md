@@ -1,7 +1,7 @@
 # CSS Homework - Commenting
 
 ## Live Link
--  https://elizabeth505.github.io/css-homework-commenting-/index.html
+-  https://elizabeth505.github.io/css-homework-commenting-/homework.html
 
 ## Prevalent Technologies Used
 
@@ -36,6 +36,7 @@ Tools:
 - Readme Created
 - Live Link Created
 - HTML and CSS files added
+- Fixed Live Link
 
 ## Contributors
 
